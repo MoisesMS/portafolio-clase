@@ -38,11 +38,11 @@ a {
 .menu-enlace:hover {
 	background-color: black;
 	color:aliceblue;
-	border-radius: 15%;
 }
 
 a:hover {
 	color:#23272e;
+	transition: .5s;
 }
 
 .margen-superior {
@@ -85,7 +85,7 @@ a:hover {
 }
 
 .margen-inferior {
-	margin-bottom: 1200px;
+	margin-bottom: 900px;
 }
 
 .hero-text {
@@ -96,3 +96,4 @@ a:hover {
   transform: translate(-50%, -50%);
   color: white;
 }
+

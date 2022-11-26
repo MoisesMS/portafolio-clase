@@ -36,9 +36,8 @@
                 <a class="menu-enlace enlace" href="#galeria">galería</a>
               </li>
               <li class="menu nav-item">
-                <a class="menu-enlace enlace" href="#">Proyectos</a>
+                <a class="menu-enlace enlace" href="#contacto">Contacto</a>
               </li>
-              <!-- TODO Añadir más elementos (Solo si es posible) -->
             </ul>
           </div>
         </div>
@@ -83,8 +82,51 @@
           dolor sit, amet consectetur adipisicing elit. Dolor, cupiditate
           quibusdam nisi sapiente deleniti nihil! Doloremque cumque optio ipsa
           provident enim dolores totam laudantium nam, libero velit praesentium
-          repudiandae. Voluptatibus.m
+          repudiandae. Voluptatibus.
         </p>
+      </div>
+
+      <div class="margen-inferior"></div>
+
+      <div id="galeria">
+        <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/carrusel/electronica.jpg"
+                alt="electrónica"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/carrusel/informatica.jpg" alt="informática" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/carrusel/programacion.jpg"
+                alt="programación"
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="carrusel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="carrusel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
       </div>
     </div>
   </body>
