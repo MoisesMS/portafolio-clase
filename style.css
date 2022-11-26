@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100&family=Roboto&display=swap');
+
+body {
+	background-image: url("./images/fondo.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	background-color: #23272e; /* Color provisional */
+}
+
+header {
+	display: flex;
+}
+
+nav {
+	position: fixed;
+}
+
+.container-menu {
+	display: flex;
+}
+
+.menu {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu {
+	padding-left: 100px;
+}
+
+.menu-enlace {
+	padding: 10px;
+	color: aliceblue;
+
+}
+
+.menu-enlace:hover {
+	background-color: black;
+	color:aliceblue;
+	border-radius: 15%;
+}
+
+a:hover {
+	color:#23272e;
+}
+
+.margen-superior {
+	margin-top: 60px;
+}
+
+.titulo {
+	color:aliceblue;
+	display: flex;
+	justify-content: center;
+}
+
+#nombre {
+	font-size: 5em;
+	font-family: 'Poppins', sans-serif;
+}
+
+#cargo {
+	font-size: 4.2em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.enlace {
+	font-size: 2em;
+}
+
+@keyframes aparicion {
+	from {opacity: 0;}
+	to {opacity: 100%;}
+}
+
+.head {
+	animation-name: aparicion;
+	animation-duration: 3s;
+}
+
+#sobre-mi {
+	color:aliceblue;
+	text-align: center;
+}
+
+.margen-inferior {
+	margin-bottom: 600px;
+}
