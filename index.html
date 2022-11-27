@@ -16,8 +16,6 @@
     <header class="p-5">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <!-- TODO Poner un logotipo -->
-
           <button
             class="navbar-toggler"
             type="button"
@@ -127,6 +125,43 @@
             <span class="carousel-control-next-icon"></span>
           </button>
         </div>
+      </div>
+
+      <div class="margen-inferior"></div>
+
+      <div id="contacto">
+        <form action="#">
+          <div class="row">
+						<h1 class="titulo">¿Hablamos?</h1>
+            <input
+              type="text"
+              name="correo"
+              id="correo"
+              placeholder="correo"
+              class="form-control mt-5"
+            />
+
+            <input
+              type="text"
+              name="asunto"
+              id="asunto"
+              placeholder="asunto"
+              class="form-control mt-5"
+            />
+
+            <textarea
+              name="msg"
+              id="msg"
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+              class="form-control mt-5"
+            ></textarea>
+
+            <input type="submit" value="Enviar" class="btn btn-primary mt-5 mb-5" />
+
+          </div>
+        </form>
       </div>
     </div>
   </body>
